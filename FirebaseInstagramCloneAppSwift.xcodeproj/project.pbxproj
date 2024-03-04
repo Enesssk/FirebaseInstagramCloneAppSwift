@@ -41,6 +41,9 @@
 		DEEED2D72B95E457008E42AE /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DEEED2D62B95E457008E42AE /* FirebaseRemoteConfigSwift */; };
 		DEEED2D92B95E457008E42AE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DEEED2D82B95E457008E42AE /* FirebaseStorage */; };
 		DEEED2DB2B95E457008E42AE /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DEEED2DA2B95E457008E42AE /* FirebaseStorageCombine-Community */; };
+		DEEED2DD2B95EF60008E42AE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED2DC2B95EF60008E42AE /* FeedViewController.swift */; };
+		DEEED2DF2B95EF6B008E42AE /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED2DE2B95EF6B008E42AE /* UploadViewController.swift */; };
+		DEEED2E12B95EF97008E42AE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED2E02B95EF97008E42AE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		DEEED29B2B95E1D8008E42AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEEED29D2B95E1D8008E42AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEEED2A32B95E262008E42AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEEED2DC2B95EF60008E42AE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DEEED2DE2B95EF6B008E42AE /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		DEEED2E02B95EF97008E42AE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,9 @@
 				DEEED29A2B95E1D8008E42AE /* LaunchScreen.storyboard */,
 				DEEED29D2B95E1D8008E42AE /* Info.plist */,
 				DEEED2A32B95E262008E42AE /* GoogleService-Info.plist */,
+				DEEED2DC2B95EF60008E42AE /* FeedViewController.swift */,
+				DEEED2DE2B95EF6B008E42AE /* UploadViewController.swift */,
+				DEEED2E02B95EF97008E42AE /* SettingsViewController.swift */,
 			);
 			path = FirebaseInstagramCloneAppSwift;
 			sourceTree = "<group>";
@@ -229,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEEED2942B95E1D7008E42AE /* ViewController.swift in Sources */,
+				DEEED2DF2B95EF6B008E42AE /* UploadViewController.swift in Sources */,
 				DEEED2902B95E1D7008E42AE /* AppDelegate.swift in Sources */,
+				DEEED2DD2B95EF60008E42AE /* FeedViewController.swift in Sources */,
 				DEEED2922B95E1D7008E42AE /* SceneDelegate.swift in Sources */,
+				DEEED2E12B95EF97008E42AE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
